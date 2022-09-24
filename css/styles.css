@@ -19,46 +19,43 @@
     background-color: var(--accent-blue);
     border-color: var(--accent-blue);
   }
-  .body {
+  body {
+    background-color: var(--white);
+    color: var(--black-heading);
     font-family: var(--font);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
   }
   .contact {
+    color: inherit;
     font-weight: 500;
     letter-spacing: 0.02em;
-    line-height: 1.2;
     text-decoration: none;
+  }
+  .contact:hover,
+  .contact:focus {
+    color: var(--accent-blue);
   }
   .contacts {
     background-color: var(--accent-background);
   }
   .feature-about {
     color: var(--grey);
-    font-size: 14px;
-    font-weight: 400;
-    left: 515px;
     letter-spacing: 0.03em;
-    line-height: 24px;
-    top: 800px;
-    width: 270px;
   }
   .feature-name {
-    color: var(--black-heading);
-    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 16.41px;
   }
   .first-name {
-    color: var(--black-heading);
-    font-size: 14px;
     font-weight: 700;
     letter-spacing: 0.03em;
     line-height: 16.41px;
   }
   .first-about {
     color: var(--grey);
-    font-size: 14px;
-    font-weight: 400;
     letter-spacing: 0.03em;
     line-height: 24px;
   }
@@ -78,14 +75,10 @@
     opacity: 0;
   }
   .link {
-    font-size: 14px;
     font-style: normal;
-    font-weight: 400;
-    height: 21px;
     line-height: 24px;
     letter-spacing: 0.03em;
     text-decoration: none;
-    width: 231px;
   }
   .link:hover,
   .link:focus {
@@ -115,23 +108,12 @@
   }
   .menu-btn {
     border-radius: 4px;
-    height: 38px;
-    left: 957px;
-    top: 174px;
-    width: 130px;
   }
-  .menu-btn-text {
-    color: var(--black-heading);
-    font-size: 16px;
-    font-weight: 500;
-    height: 26px;
-    left: 868px;
-    letter-spacing: 0.03em;
-    line-height: 26px;
-    text-align: center;
-    top: 180px;
-    width: 59px;
-  }
+  .menu-btn:hover,
+  .menu-btn:focus {
+    color: var(--white);
+    background-color: var(--accent-blue);
+}
   .order-btn {
     background-color: var(--accent-blue);
     border: none;
@@ -141,70 +123,32 @@
     cursor: pointer;
     font-size: 16px;
     font-weight: 700;
-    height: 50px;
-    left: 692px;
     letter-spacing: 0.06em;
     line-height: 1.9;
-    top: 430px;
-    width: 216px;
   }
   .project {
     background: var(--white);
     border: 1px solid var(--white);
     box-sizing: border-box;
-    height: 404px;
-    left: 215px;
-    top: 262px;
-    width: 370px;
-  }
-  .project-img {
-    height: 294px;
-    left: 215px;
-    top: 262px;
-    width: 370px;
   }
   .project-name {
-    color: var(--black-heading);
     font-size: 18px;
     font-weight: 700;
-    height: 36px;
-    left: 239px;
     letter-spacing: 0.06em;
     line-height: 36px;
-    top: 576px;
-    width: 322px;
   }
   .project-type {
     color: var(--grey);
     font-size: 16px;
-    height: 30px;
-    left: 639px;
     letter-spacing: 0.03em;
-    line-height: 30px;
-    top: 616px;
-    width: 322px;
   }
   .sec-heading {
-    color: var(--black-heading);
     font-size: 36px;
     font-weight: 700;
     line-height: 1.2;
     text-align: center;
   }
-  .sec-heading-img {
-    height: 294px;
-    left: 215px;
-    top: 1058px;
-    width: 370px;
-  }
-  .team-img {
-    height: 260px;
-    left: 515px;
-    top: 1632px;
-    width: 270px;
-  }
   .team-name {
-    color: var(--black-heading);
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.03em;
@@ -213,7 +157,6 @@
   }
   .team-prof {
     color: var(--grey);
-    font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.03em;
     line-height: 18.75px;
