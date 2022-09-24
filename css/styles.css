@@ -28,7 +28,7 @@
     font-weight: 400;
   }
   .contact {
-    color: inherit;
+    color: var(--grey);
     font-weight: 500;
     letter-spacing: 0.02em;
     text-decoration: none;
@@ -82,15 +82,24 @@
   }
   .link:hover,
   .link:focus {
-    color: var(--white);
+    color: var(--accent-blue);
   }
   .list {
     list-style: none;
   }
-  .logo {
+  .logo-header {
+    color: var(--black);
     font-family: var(--font-logo);
     font-size: 26px;
     font-weight: 700;
+    text-decoration: none;
+  }
+  .logo-footer {
+    display: block;
+    color: var(--white);
+    font-size: 26px;
+    font-weight: 700;
+    font-family: var(--font-logo);
     text-decoration: none;
   }
   .nav-item {
