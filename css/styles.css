@@ -25,7 +25,6 @@
     font-family: var(--font);
     font-size: 14px;
     font-style: normal;
-    font-weight: 400;
   }
   .contact {
     color: var(--grey);
@@ -45,38 +44,31 @@
     letter-spacing: 0.03em;
   }
   .feature-name {
+    font-size: 14px;
     font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 16.41px;
-  }
-  .first-name {
-    font-weight: 700;
-    letter-spacing: 0.03em;
-    line-height: 16.41px;
-  }
-  .first-about {
-    color: var(--grey);
-    letter-spacing: 0.03em;
-    line-height: 24px;
+    text-transform: uppercase;
   }
   .grey {
     color: var(--grey);
   }
   .heading {
     background-color: var(--accent-background);
+    text-align: center;
+  }
+  .heading-name {
     color: var(--white);
     font-size: 44px;
     font-weight: 900;
+    line-height: 1.36;
     letter-spacing: 0.06em;
-    line-height: 60px;
-    text-align: center;
+    text-transform: uppercase;
   }
   .hidden {
     opacity: 0;
   }
   .link {
     font-style: normal;
-    line-height: 24px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
     text-decoration: none;
   }
@@ -144,7 +136,7 @@
     font-size: 18px;
     font-weight: 700;
     letter-spacing: 0.06em;
-    line-height: 36px;
+    line-height: 2;
   }
   .project-type {
     color: var(--grey);
@@ -157,18 +149,24 @@
     line-height: 1.2;
     text-align: center;
   }
+  .sec-heading-img {
+    height: 294px;
+    width: 370px;
+  }
+  .team-img {
+    height: 260px;
+    width: 270px;
+  }
   .team-name {
     font-weight: 500;
     font-size: 16px;
     letter-spacing: 0.03em;
-    line-height: 18.75px;
     text-align: center;
   }
   .team-prof {
     color: var(--grey);
     font-size: 16px;
     letter-spacing: 0.03em;
-    line-height: 18.75px;
     text-align: center;
   }
   ul {
